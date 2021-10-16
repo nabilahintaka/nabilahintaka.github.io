@@ -66,8 +66,6 @@ h6, .h6 {
 }
 
 nav{
-    position: sticky;
-    top: 0;
     background-color:#bd5d38 ;
     font-size: 15px;
     font-family: 'Mulish', sans-serif;
@@ -75,7 +73,6 @@ nav{
 
 .container a{
     text-decoration: none;
-    padding: 10px;
     text-align: center;
     float: left;
     color:white;
