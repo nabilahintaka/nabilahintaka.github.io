@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
+  font-family: 'Saira Extra Condensed', sans-serif ;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+    font-size: calc(1.725rem + 5.7vw) !important;
+    text-align: center;
+    color:#bd5d38;
+}
+@media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 6rem!important;
+    }
+}
+  
+h2, .h2 {
+   font-size: calc(1.475rem + 2.7vw)!important;
+   color: #212529;
+}
+@media (min-width: 1200px) {
+    h2, .h2 {
+      font-size: 3.5rem!important;
+    }
+}
+  
+  h3, .h3 {
+    font-size: calc(1.325rem + 0.9vw)!important;
+    color: #343a40;
+  }
+  @media (min-width: 1200px) {
+    h3, .h3 {
+      font-size: 2rem!important;
+    }
+  }
+  
+  h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw)!important;
+  }
+  @media (min-width: 1200px) {
+    h4, .h4 {
+      font-size: 1.5rem !important;
+    }
+  }
+  
+  h5, .h5 {
+    font-size: 1.25rem !important;
+  }
+  
+h6, .h6 {
+    font-size: 1rem !important;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color:#bd5d38 ;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color:white;
+}
+
+.container a:hover {
+    color: #343a40 !important;
+  }
+
+.resume a {
+   color: #bd5d38;
+   text-decoration: underline;
+}
+
+.resume a:hover {
+   color: #343a40;
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.subheading > a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.subheading {
+    font-size: 30px;
+    color:#343a40;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif ;
+}
+  
+.lead {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #343a40;
+    font-size: 18px;
+}
+
+.img-profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.social-icons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons > .social-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #bd5d38;
+}
+
+main {
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+.d-flex, .education1, .skills1, .portofolio1 {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #6c757d !important;
+}
+
+/**
+article {
+    background-color:bisque;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}**/
+
+
+/** EXPERIENCE dan EDUCATION **/
+.d-flex {
+    display: flex !important;
+}
+.flex-column {
+    flex-direction: column !important;
+  }
+  .flex-md-row {
+    flex-direction: row !important;
+  }
+  .justify-content-md-between {
+    justify-content: space-between !important;
+  }
+  .flex-grow-1 {
+    flex-grow: 1 !important;
+  }
+  .flex-shrink-0 {
+    flex-shrink: 0 !important;
+  }
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }
+
+/**SKILLS**/
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+.dev-icons {
+    font-size: 3rem!important;
+}
+
+/**CERTIFICATIONS**/
+.certifications > .a{
+  color:#bd5d38 !important;
+}
+
+/**PROJECT**/
+.btn{
+  color: white !important;
+  background-color: #bd5d38 !important;
+}
+
+.btn:hover{
+  color: #343a40 !important;
+}
+
+/**FOOTER**/
+footer{
+    background-color:#bd5d38;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
